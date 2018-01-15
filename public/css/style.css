@@ -1,0 +1,29 @@
+body {
+	padding: 25px 5%;
+}
+
+.row, .column {
+	display: flex;
+}
+
+.column {
+	flex-direction: column;
+}
+
+form {
+	width: 350px;
+	margin-right: 40px;
+}
+
+form input, form textarea, form button {
+	padding: 7px;
+	margin-bottom: 5px;
+	font-size: 17px;
+}
+
+.note {
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	margin: 0 10px 10px 0;
+}

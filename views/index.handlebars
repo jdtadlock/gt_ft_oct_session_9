@@ -1,0 +1,18 @@
+<h1>Note App</h1>
+
+<div class="row">
+	<form class="column" action="/notes" method="post">
+		<input type="text" name="title">
+		<textarea name="details" cols="30" rows="10"></textarea>
+		<button>Submit</button>
+	</form>
+
+	<div class="notes row">
+		{{#each data}}
+			<div class="note">
+				<h3>{{ title }}</h3>
+				<p>{{ details }}</p>
+			</div>
+		{{/each}}
+	</div>
+</div>
